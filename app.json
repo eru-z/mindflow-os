@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "EruditaHotel",
+    "slug": "erudita-hotel",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "scheme": "hotelapp",
+    "jsEngine": "hermes",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+"icon": null,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#EDE8DF"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.erudita.hotel",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "We use your location to show nearby hotels and experiences."
+      }
+    },
+    "android": {
+      "package": "com.erudita.hotel",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#EDE8DF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "replace-this-with-your-real-project-id"
+      }
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
